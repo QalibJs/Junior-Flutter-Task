@@ -17,7 +17,7 @@ class HomeModalFavWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    HomeCubit homeCubit = context.read<HomeCubit>();
+    HomeCubit homeCubit = context.watch<HomeCubit>();
     return Column(
       children: [
         GestureDetector(
