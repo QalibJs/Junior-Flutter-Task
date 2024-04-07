@@ -21,7 +21,7 @@ class HomeReportWidget extends StatefulWidget {
 class _HomeReportWidgetState extends State<HomeReportWidget> {
   @override
   Widget build(BuildContext context) {
-    RadioCubit cubit = context.watch<RadioCubit>();
+    RadioCubit cubit = context.read<RadioCubit>();
     List<ReportModel> report = ReportModel.model;
     return SafeArea(
       child: Column(

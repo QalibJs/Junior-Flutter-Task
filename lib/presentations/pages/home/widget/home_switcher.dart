@@ -10,7 +10,7 @@ class HomeSwitcher extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    HomeCubit homeCubit = context.watch<HomeCubit>();
+    HomeCubit homeCubit = context.read<HomeCubit>();
     return Switch(
       activeColor: context.background,
       inactiveTrackColor: context.secondary,
