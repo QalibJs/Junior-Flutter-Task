@@ -19,7 +19,7 @@ class HomePage extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.start,
         children: [
           HomeActivateSecureMode(),
-          HomeListViewBuilder(),
+          HomeListViegit initwBuilder(),
         ],
       ),
     );
