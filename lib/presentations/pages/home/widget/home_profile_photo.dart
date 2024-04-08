@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-import '../../../../constants/app_border_radius.dart';
-import '../../../../constants/app_colors.dart';
+import '../../../../utils/constants/app_border_radius.dart';
+import '../../../../utils/constants/app_colors.dart';
 
 class HomeProfilePhoto extends StatelessWidget {
 

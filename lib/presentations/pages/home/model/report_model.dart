@@ -1,4 +1,4 @@
-import '../../../../constants/app_texts.dart';
+import '../../../../utils/constants/app_texts.dart';
 
 class ReportModel {
   final String rep;

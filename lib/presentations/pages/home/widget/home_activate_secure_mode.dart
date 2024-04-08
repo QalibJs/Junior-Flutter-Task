@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import '../../../../constants/app_border_radius.dart';
-import '../../../../constants/app_colors.dart';
-import '../../../../constants/app_paddings.dart';
-import '../../../../constants/app_text_style.dart';
-import '../../../../constants/app_texts.dart';
-import '../../../../extension/color.dart';
-import '../../../../extension/sizer.dart';
+import '../../../../utils/constants/app_border_radius.dart';
+import '../../../../utils/constants/app_colors.dart';
+import '../../../../utils/constants/app_paddings.dart';
+import '../../../../utils/constants/app_text_style.dart';
+import '../../../../utils/constants/app_texts.dart';
+import '../../../../utils/extension/color.dart';
+import '../../../../utils/extension/sizer.dart';
 import '../controller/home_cubit.dart';
 import 'home_switcher.dart';
 

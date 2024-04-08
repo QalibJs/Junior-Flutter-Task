@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import '../../../../../constants/app_assets.dart';
-import '../../../../../constants/app_border_radius.dart';
-import '../../../../../constants/app_paddings.dart';
+import '../../../../../utils/constants/app_assets.dart';
+import '../../../../../utils/constants/app_border_radius.dart';
+import '../../../../../utils/constants/app_paddings.dart';
 
 class HomeAppBarLeadingWidget extends StatelessWidget {
 

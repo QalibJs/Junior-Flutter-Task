@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../../../../constants/app_assets.dart';
-import '../../../../constants/app_texts.dart';
+import '../../../../utils/constants/app_assets.dart';
+import '../../../../utils/constants/app_texts.dart';
 
 class UsersModel {
   final String username;

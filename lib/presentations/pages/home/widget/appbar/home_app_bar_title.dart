@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import '../../../../../constants/app_assets.dart';
-import '../../../../../constants/app_text_style.dart';
-import '../../../../../constants/app_texts.dart';
+import '../../../../../utils/constants/app_assets.dart';
+import '../../../../../utils/constants/app_text_style.dart';
+import '../../../../../utils/constants/app_texts.dart';
 
 class HomeAppBarTitle extends StatelessWidget {
 

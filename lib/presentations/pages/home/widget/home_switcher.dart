@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import '../../../../constants/app_colors.dart';
-import '../../../../extension/color.dart';
-import '../../../../extension/msp_all.dart';
+import '../../../../utils/constants/app_colors.dart';
+import '../../../../utils/extension/color.dart';
+import '../../../../utils/extension/msp_all.dart';
 import '../controller/home_cubit.dart';
 
 class HomeSwitcher extends StatelessWidget {

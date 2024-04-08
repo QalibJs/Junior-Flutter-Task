@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import '../../../../../extension/msp_all.dart';
-import '../../../../../constants/app_button_style.dart';
-import '../../../../../constants/app_text_style.dart';
+import '../../../../../utils/extension/msp_all.dart';
+import '../../../../../utils/constants/app_button_style.dart';
+import '../../../../../utils/constants/app_text_style.dart';
 import '../../../../widgets/global_button_widget.dart';
 
 class HomeModalButton extends StatelessWidget {

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import '../../../../../constants/app_border_radius.dart';
-import '../../../../../constants/app_text_style.dart';
-import '../../../../../extension/sized_box.dart';
+import '../../../../../utils/constants/app_border_radius.dart';
+import '../../../../../utils/constants/app_text_style.dart';
+import '../../../../../utils/extension/sized_box.dart';
 
 class HomeModalProfile extends StatelessWidget {
   const HomeModalProfile({super.key, required this.image, required this.name, required this.status});

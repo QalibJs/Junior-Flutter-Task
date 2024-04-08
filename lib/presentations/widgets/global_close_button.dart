@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import '../../constants/app_border_radius.dart';
-import '../../constants/app_navigators.dart';
-import '../../constants/app_paddings.dart';
-import '../../extension/color.dart';
+import '../../utils/constants/app_border_radius.dart';
+import '../../utils/constants/app_navigators.dart';
+import '../../utils/constants/app_paddings.dart';
+import '../../utils/extension/color.dart';
 
 class GlobalCloseButton extends StatelessWidget {
   const GlobalCloseButton({super.key});

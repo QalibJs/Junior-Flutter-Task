@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import '../../../../../constants/app_navigators.dart';
-import '../../../../../constants/app_text_style.dart';
-import '../../../../../constants/app_texts.dart';
-import '../../../../../extension/color.dart';
-import '../../../../../extension/sized_box.dart';
+import '../../../../../utils/constants/app_navigators.dart';
+import '../../../../../utils/constants/app_text_style.dart';
+import '../../../../../utils/constants/app_texts.dart';
+import '../../../../../utils/extension/color.dart';
+import '../../../../../utils/extension/sized_box.dart';
 import 'home_modal_button.dart';
 import 'home_modal_success_box.dart';
 import '../../../../widgets/global_modal_top_widget.dart';

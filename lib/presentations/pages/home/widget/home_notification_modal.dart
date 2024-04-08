@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import '../../../../constants/app_navigators.dart';
-import '../../../../constants/app_paddings.dart';
-import '../../../../constants/app_text_style.dart';
-import '../../../../constants/app_texts.dart';
-import '../../../../extension/color.dart';
+import '../../../../utils/constants/app_navigators.dart';
+import '../../../../utils/constants/app_paddings.dart';
+import '../../../../utils/constants/app_text_style.dart';
+import '../../../../utils/constants/app_texts.dart';
+import '../../../../utils/extension/color.dart';
 import 'home_global_button.dart';
 import '../../../widgets/global_snackbar_widget.dart';
 

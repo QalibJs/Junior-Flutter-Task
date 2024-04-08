@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import '../../constants/app_paddings.dart';
-import '../../extension/color.dart';
-import '../../extension/sizer.dart';
+import '../../utils/constants/app_paddings.dart';
+import '../../utils/extension/color.dart';
+import '../../utils/extension/sizer.dart';
 
 class GlobalDividerWidget extends StatelessWidget {
   const GlobalDividerWidget({super.key});

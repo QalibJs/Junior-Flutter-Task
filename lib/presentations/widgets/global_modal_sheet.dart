@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import '../../constants/app_border_radius.dart';
-import '../../constants/app_colors.dart';
-import '../../constants/app_paddings.dart';
-import '../../extension/color.dart';
-import '../../extension/sized_box.dart';
-import '../../extension/sizer.dart';
+import '../../utils/constants/app_border_radius.dart';
+import '../../utils/constants/app_colors.dart';
+import '../../utils/constants/app_paddings.dart';
+import '../../utils/extension/color.dart';
+import '../../utils/extension/sized_box.dart';
+import '../../utils/extension/sizer.dart';
 
 void modal(BuildContext context, Widget child) {
   showModalBottomSheet(

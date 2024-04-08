@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'modal/home_profile_modal.dart';
-import '../../../../constants/app_paddings.dart';
-import '../../../../extension/color.dart';
+import '../../../../utils/constants/app_paddings.dart';
+import '../../../../utils/extension/color.dart';
 import 'home_profile_photo.dart';
 
 class HomeListTile extends StatelessWidget {

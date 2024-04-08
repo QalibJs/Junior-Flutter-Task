@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import '../../../../../constants/app_paddings.dart';
-import '../../../../../constants/app_texts.dart';
-import '../../../../../extension/sized_box.dart';
+import '../../../../../utils/constants/app_paddings.dart';
+import '../../../../../utils/constants/app_texts.dart';
+import '../../../../../utils/extension/sized_box.dart';
 import 'home_modal_fav_widget.dart';
 import 'home_modal_bio.dart';
 import 'home_modal_profile.dart';

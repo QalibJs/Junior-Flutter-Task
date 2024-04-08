@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import '../../../../../constants/app_border_radius.dart';
-import '../../../../../constants/app_box_decoration.dart';
-import '../../../../../constants/app_colors.dart';
-import '../../../../../constants/app_navigators.dart';
-import '../../../../../constants/app_paddings.dart';
-import '../../../../../constants/app_text_style.dart';
-import '../../../../../constants/app_texts.dart';
-import '../../../../../extension/color.dart';
-import '../../../../../extension/sized_box.dart';
+import '../../../../../utils/constants/app_border_radius.dart';
+import '../../../../../utils/constants/app_box_decoration.dart';
+import '../../../../../utils/constants/app_colors.dart';
+import '../../../../../utils/constants/app_navigators.dart';
+import '../../../../../utils/constants/app_paddings.dart';
+import '../../../../../utils/constants/app_text_style.dart';
+import '../../../../../utils/constants/app_texts.dart';
+import '../../../../../utils/extension/color.dart';
+import '../../../../../utils/extension/sized_box.dart';
 import '../modal/home_block_modal.dart';
 import '../modal/home_mute_modal.dart';
 import '../modal/home_report_modal.dart';
@@ -36,50 +36,48 @@ class HomeModalProfileButton extends StatelessWidget {
                 decoration: AppBoxDecoration.b50grey(context.secondary),
                 padding: AppPaddings.all2,
                 child: PopupMenuButton(
+                  color: context.background,
                   shape: const RoundedRectangleBorder(
                       borderRadius: AppBorderRadius.all8),
                   splashRadius: 0.2,
                   itemBuilder: (context) => [
-                    PopupMenuItem(
-                        onTap: () {
-                          AppNavigators.pop(context);
-                          mute(context);
-                        },
-                        child: Row(
-                          children: [
-                            const Icon(Icons.notifications_off_outlined),
-                            5.w,
-                            const Text(AppTexts.npotificationsClosed),
-                          ],
-                        )),
-                    PopupMenuItem(
-                        onTap: () {
-                          AppNavigators.pop(context);
-                          block(context);
-                        },
-                        child: Row(
-                          children: [
-                            const Icon(Icons.block_flipped),
-                            5.w,
-                            const Text(AppTexts.block),
-                          ],
-                        )),
+                    
                     PopupMenuItem(
                       onTap: () {
                         AppNavigators.pop(context);
-                        repModal(context , );
+                        mute(context);
                       },
                       child: Row(
                         children: [
-                          const Icon(
-                            Icons.flag,
-                            color: AppColors.red,
-                          ),
+                          const Icon(Icons.notifications_off_outlined),
                           5.w,
-                          Text(
-                            AppTexts.report,
-                            style: AppTextStyle.red16,
-                          ),
+                          const Text(AppTexts.npotificationsClosed),
+                        ],
+                      ),
+                    ),
+                    PopupMenuItem(
+                      onTap: () {
+                        AppNavigators.pop(context);
+                        block(context);
+                      },
+                      child: Row(
+                        children: [
+                          const Icon(Icons.block_flipped),
+                          5.w,
+                          const Text(AppTexts.block),
+                        ],
+                      ),
+                    ),
+                    PopupMenuItem(
+                      onTap: () {
+                        AppNavigators.pop(context);
+                        repModal(context);
+                      },
+                      child: Row(
+                        children: [
+                          const Icon(Icons.flag, color: AppColors.red),
+                          5.w,
+                          Text(AppTexts.report, style: AppTextStyle.red16),
                         ],
                       ),
                     ),

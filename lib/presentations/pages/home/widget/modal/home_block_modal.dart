@@ -1,4 +1,4 @@
-import '../../../../../constants/app_texts.dart';
+import '../../../../../utils/constants/app_texts.dart';
 import '../home_notification_modal.dart';
 import '../../../../widgets/global_modal_sheet.dart';
 

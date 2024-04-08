@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import '../../../../extension/color.dart';
-import '../../../../extension/sized_box.dart';
+import '../../../../utils/extension/color.dart';
+import '../../../../utils/extension/sized_box.dart';
 import 'modal_widgets/home_modal_button.dart';
 
 class HomeGlobalButton extends StatelessWidget {

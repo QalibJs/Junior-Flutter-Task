@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import '../../../../../constants/app_assets.dart';
-import '../../../../../constants/app_box_decoration.dart';
-import '../../../../../extension/color.dart';
+import '../../../../../utils/constants/app_assets.dart';
+import '../../../../../utils/constants/app_box_decoration.dart';
+import '../../../../../utils/extension/color.dart';
 
 class HomeModalSuccessBox extends StatelessWidget {
 

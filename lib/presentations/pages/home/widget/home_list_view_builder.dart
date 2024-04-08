@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import '../../../../constants/app_border_radius.dart';
-import '../../../../constants/app_paddings.dart';
+import '../../../../utils/constants/app_border_radius.dart';
+import '../../../../utils/constants/app_paddings.dart';
 import '../model/users_model.dart';
-import '../../../../extension/sizer.dart';
+import '../../../../utils/extension/sizer.dart';
 import 'home_list_tile.dart';
 
 class HomeListViewBuilder extends StatelessWidget {

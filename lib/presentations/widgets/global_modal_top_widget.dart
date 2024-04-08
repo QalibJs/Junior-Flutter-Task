@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../constants/app_text_style.dart';
+import '../../utils/constants/app_text_style.dart';
 import 'global_close_button.dart';
 
 class GlobalModalHeaderWidget extends StatelessWidget {
